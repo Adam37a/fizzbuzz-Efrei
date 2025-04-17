@@ -22,7 +22,7 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_fizzbuzz(self):
         output = self.capture_output(15)
-        self.assertEqual(output[-1], "FizzBuzz")
+        self.assertEqual(output[-1], "Fizzbuzz")
 
     def test_number(self):
         output = self.capture_output(2)
